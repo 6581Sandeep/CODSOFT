@@ -66,12 +66,12 @@ while True:
         need_watch = input("\nEnter name for search : ")
         print("----------> Result ")
         print("name phone no email id addr")
-        print(contact[need_watch])
+     
         for i in contact:
-            print("Name: " , contact[i][0])
-            print("Phone: " , contact[i][1])
-            print("Email: " , contact[i][2])
-            print("Addr: " , contact[i][3])
+            print("\nName:\t" , contact[i][0])
+            print("Phone:\t" , contact[i][1])
+            print("Email:\t" , contact[i][2])
+            print("Addr:\t" , contact[i][3])
 
 
 
