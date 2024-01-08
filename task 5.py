@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------------------Task 5 Contact Book
 
-print("TASK 3")
-print("Rock-Paper-Scissors Game")
+print("TASK 5")
+print("Contact Book")
 print("Name : SANDEEP SANJAYKUMAR SWAMI\n")
 
 contact = {}
@@ -65,7 +65,15 @@ while True:
     elif choice == 4:
         need_watch = input("\nEnter name for search : ")
         print("----------> Result ")
+        print("name phone no email id addr")
         print(contact[need_watch])
+        for i in contact:
+            print("Name: " + contact[i][0])
+            print("Phone: " + contact[i][1])
+            print("Email: " + contact[i][2])
+            print("Addr: " + contact[i][3])
+
+
 
     elif choice == 5:
         print("Contact list\n")
