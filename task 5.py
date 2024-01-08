@@ -68,10 +68,10 @@ while True:
         print("name phone no email id addr")
         print(contact[need_watch])
         for i in contact:
-            print("Name: " + contact[i][0])
-            print("Phone: " + contact[i][1])
-            print("Email: " + contact[i][2])
-            print("Addr: " + contact[i][3])
+            print("Name: " , contact[i][0])
+            print("Phone: " , contact[i][1])
+            print("Email: " , contact[i][2])
+            print("Addr: " , contact[i][3])
 
 
 
